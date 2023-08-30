@@ -1,0 +1,18 @@
+<div class="heroes-wrapper">
+  <table>
+    <tr>
+      <td>
+        <img *ngFor="let hero of heroes_str" class="hero-img" src="../../assets/img/heroes/{{hero.image}}.png"/>
+      </td>
+      <td>
+        <img *ngFor="let hero of heroes_agi" class="hero-img" src="../../assets/img/heroes/{{hero.image}}.png"/>
+      </td>
+      <td>
+        <img *ngFor="let hero of heroes_int" class="hero-img" src="../../assets/img/heroes/{{hero.image}}.png"/>
+      </td>
+      <td>
+        <img *ngFor="let hero of heroes_uni" class="hero-img" src="../../assets/img/heroes/{{hero.image}}.png"/>
+      </td>
+    </tr>
+  </table>
+</div>

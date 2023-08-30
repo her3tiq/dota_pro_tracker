@@ -1,0 +1,37 @@
+#filter-keys, #filter-modifiers {
+  padding: 10px;
+  text-align: center;
+}
+
+button {
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 5px 15px;
+  margin: 0px 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button.filter-unpressed {
+  background-color: #5c5470;
+  color: white;
+}
+
+button.filter-pressed {
+  background-color: #430f58;
+  color: white;
+}
+
+button.filter-modifier {
+  background-color: #dbd8e3;
+  color: black;
+}
+
+button:hover {
+  background-color: #6643b5;
+  color: white;
+}
